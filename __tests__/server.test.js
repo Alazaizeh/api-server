@@ -23,13 +23,4 @@ describe("express server", () => {
     // assert
     expect(response.status).toBe(status);
   });
-  it("should response with 500 if no name in the query string", async () => {
-    // arrange
-    let param = "/person";
-    let status = 500;
-    // act
-    const response = await request.get(param);
-    // assert
-    expect(response.status).toBe(status);
-  });
 });

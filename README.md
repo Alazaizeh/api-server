@@ -1,5 +1,5 @@
 # api-server
-![img](./r.jpg)
+![img](./r.png)
 ## Notes:
 - Implemented Express
 - Implemented Jest

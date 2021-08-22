@@ -3,7 +3,8 @@
 // const POSTGRES_URI = process.env.POSTGRES_URI || 'postgres://localhost/postgres';
 const POSTGRES_URI =
   process.env.POSTGRES_URI ||
-  "postgresql://postgres:0000@localhost:5432/class04";
+  "postgres://pfwvsseb:nsW3ouLEURu7OyQ_rDA7sJ8s13aeOTt7@tai.db.elephantsql.com/pfwvsseb";
+// "postgresql://postgres:0000@localhost:5432/class04";
 const { Sequelize, DataTypes } = require("sequelize");
 const clothes = require("./clothes");
 const food = require("./food");

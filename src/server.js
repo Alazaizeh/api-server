@@ -15,6 +15,10 @@ app.use(loggerMeddleware);
 app.use(foodRoutes);
 app.use(clothesRoutes);
 
+app.get("/bad", (req, res, next) => {
+  next("error from bad end point");
+});
+
 app.use("*", notFoundHandler);
 app.use(errorHandler);
 
